@@ -1,0 +1,27 @@
+/* debug */
+nav{
+  background-color: darkblue;
+}
+
+.ms_jumbotron{
+  background-color: lightgreen;
+}
+
+[class*="col-"]{
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+    opacity: 80%;
+}
+
+#ms_about{
+  background-color: lightgreen;
+}
+
+footer section:first-child{
+  background-color: darkblue;
+}
+
+footer section:last-child{
+  background-color: azure;
+}
