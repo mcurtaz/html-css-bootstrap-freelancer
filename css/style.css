@@ -1,22 +1,92 @@
-/* debug */
-nav{
-  background-color: darkblue;
+
+/* header */
+header{
+  color: #fff;
+}
+
+
+/* barra navigazione header */
+
+header nav{
+  width: 100%;
+  background-color: #2c3e50;
+  min-height: 80px;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header nav [class*="col"]:first-child a{
+  font-size: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+header nav [class*="col"]:first-child a:hover{
+  text-decoration: none;
+}
+
+/* link allineati a destra device con schermo medio/grande */
+
+.ms_nav_links{
+  text-align: right;
+}
+
+.ms_nav_links li{
+  margin-left: 20px;
+}
+
+.ms_nav_links a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ms_nav_links a:hover, .ms_nav_links .dropdown-menu a:hover{
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+/* hamburger menu fatto con classi visible/hidden del framework più alcune regole css per gli aggiustamenti grafici */
+
+.ms_nav_links .btn-default{
+  color: white;
+  background-color: #1abc9c;
+  border: none;
+}
+
+.ms_nav_links .open>.dropdown-toggle.btn-default:focus {
+  color: #000;
+  background-color: #1abc9c;
+  border: none;
+}
+
+.ms_nav_links .dropdown-menu{
+  background: #2c3e50;
+  border-radius: 3px;
+  border-color: #fff;
+}
+
+.ms_nav_links .dropdown-menu a{
+  color: #fff;
+  font-weight: bold;
+}
+
+/* media queries per ridimensionare il logo in width xs */
+
+@media screen and (max-width: 768px)  {
+
+  header nav [class*="col"]:first-child a{
+    font-size: 20px;
+  }
+
 }
 
 .ms_jumbotron{
   background-color: lightgreen;
-}
-
-[class*="col-"]{
-    line-height: 100px;
-    color: white;
-    font-weight: bolder;
-    font-size: 18px;
-    text-align: center;
-    height: 100px;
-    background-color: grey;
-    border: 1px solid black;
-    opacity: 80%;
 }
 
 #ms_about{
