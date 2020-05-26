@@ -4,6 +4,7 @@ h2{
   font-size: 35px;
   font-weight: 900;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
   /* grechine */
 
@@ -222,11 +223,90 @@ header nav [class*="col"]:first-child a:hover{
   font-weight: bold;
 }
 
-footer section:first-child{
-  background-color: darkblue;
+#ms_about .ms_button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/* sezione contacts */
+
+#ms_contact{
+  text-align: center;
+  color: #2c3e50;
+  padding: 30px 0 25px;
+}
+
+#ms_contact input, #ms_contact textarea {
+  color: #2c3e50;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  box-shadow: none;
+  padding-bottom: 13px;
+  margin: 13px 0;
+}
+
+#ms_contact input::placeholder, #ms_contact textarea::placeholder{
+  color: #2c3e50;
+  opacity: 0.8;
+}
+
+#ms_contact form{
+  text-align: left;
+}
+
+#ms_contact .ms_button{
+  background-color: #1abc9c;
+  display: inline-block;
+  margin: 20px auto 0;
+  padding: 15px 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
 }
 
+#ms_contact .ms_button:hover{
+  background-color: #159a80;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  color: #fff;
+}
+
+footer section:first-child{
+  padding: 20px 0;
+  background-color: #2c3e50;
+}
+
 footer section:last-child{
-  background-color: azure;
+  background-color: #1a252f;
+  min-height: 70px;
+  line-height: 70px;
+}
+
+footer h3{
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+footer .ms_social_icon a{
+  display: inline-block;
+  color: #fff;
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+footer .ms_social_icon a:hover{
+  background-color: #fff;
+  color: #2c3e50;
 }
