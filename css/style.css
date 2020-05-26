@@ -167,6 +167,7 @@ header nav [class*="col"]:first-child a:hover{
   margin: 15px 0;
 }
 
+/* velo verde sopra le foto con icona più bianca centranta. display solo con hover */
 #ms_portfolio .layover{
   display: none;
   position: absolute;
@@ -193,15 +194,37 @@ header nav [class*="col"]:first-child a:hover{
   display: block;
 }
 
-
-
+/* sezione about */
 
 #ms_about{
-  background-color: lightgreen;
+  background-color: #1abc9c;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0 25px;
+}
+
+#ms_about p{
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+#ms_about .ms_button{
+  display: inline-block;
+  margin: 20px auto 0;
+  padding: 12px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 footer section:first-child{
   background-color: darkblue;
+  font-weight: bold;
 }
 
 footer section:last-child{
