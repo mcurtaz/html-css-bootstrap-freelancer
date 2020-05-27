@@ -13,6 +13,7 @@
   <body>
     <!-- header diviso in nav e jumbotron -->
     <header>
+
       <!-- la nav è divisa in due colonne logo a sx e link a dx -->
       <nav>
         <!-- il container di bootstrap si ridimensiona a "scatti" man mano si riduce il viewport. Sotto i 768 è a 100%. Tutti i contenuti di questa pagina saranno in un container.-->
@@ -24,9 +25,9 @@
             <div class="col-xs-3 col-sm-4 col-md-6">
               <div class="ms_nav_links hidden-xs">
                 <ul class="list-inline">
-                  <li><a href="#">LINK</a></li>
-                  <li><a href="#">LINK</a></li>
-                  <li><a href="#">LINK</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </div>
               <div class="ms_nav_links">
@@ -35,9 +36,9 @@
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                   </button>
                   <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="#">LINK</a></li>
-                    <li><a href="#">LINK</a></li>
-                    <li><a href="#">LINK</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                   </ul>
                 </div>
               </div>
@@ -45,6 +46,7 @@
           </div>
         </div>
       </nav>
+
       <!-- il jumbotron è un blocco unico non diviso in colonne -->
       <div class="ms_jumbotron">
         <div class="container">
@@ -64,6 +66,7 @@
       </div>
     </header>
     <main>
+
       <!-- sezione portfolio divisa in una row con il titolo. e in una row con diversi blocchetti immagine che si riposizionano in base alla with del device -->
       <section id="ms_portfolio">
         <div class="container">
@@ -130,10 +133,9 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </section>
+
       <!-- sezione about con una riga col titolo. una riga con due paragrafi che si mettono uno sotto l'altro da with device small. e una riga con un bottone -->
       <section id="ms_about">
         <div class="container">
@@ -165,6 +167,7 @@
           </div>
         </div>
       </section>
+
       <!-- sezione contact divisa in due righe una con il titolo l'altra con un form per i contatti -->
       <section id="ms_contact">
         <div class="container">
@@ -184,7 +187,7 @@
                 <input type="text" class="form-control"  placeholder="Name">
                 <input type="email" class="form-control" placeholder="Email">
                 <input type="text" class="form-control"  placeholder="Numero">
-                <textarea name="name" class="form-control" placeholder="Message"></textarea>
+                <textarea name="name" rows="6" class="form-control" placeholder="Message"></textarea>
                 <input class="ms_button" type="submit" value="Send">
               </form>
             </div>
@@ -192,6 +195,7 @@
         </div>
       </section>
     </main>
+
     <!-- footer diviso in due parti. una con 3 colonne che si ridispongono con with xs. e una riga solo con il copyright -->
     <footer>
       <section>
@@ -207,7 +211,7 @@
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fas fa-basketball-ball"></i></a>  
+                <a href="#"><i class="fas fa-basketball-ball"></i></a>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -217,6 +221,7 @@
           </div>
         </div>
       </section>
+
       <section>
         <div class="container">
           <div class="row">
@@ -227,5 +232,6 @@
         </div>
       </section>
     </footer>
+
   </body>
 </html>
