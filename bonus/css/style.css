@@ -85,6 +85,7 @@ header #ms_navbar{
   font-size: 16px;
   font-weight: 700;
   padding-left: 25px;
+  transition: color 0.4s;
 }
 
 #ms_navbar .navbar-nav li a:hover{
@@ -181,12 +182,17 @@ header #ms_navbar{
   /* MODALS!! */
 
   .modal-content .modal-header [class="close"]{
-    float: none;
     position: absolute;
     right: 15px;
     top: 10px;
     color:  #1abc9c;
     font-size: 50px;
+    opacity: 1;
+    transition: color 0.5s;
+  }
+
+  .modal-content .modal-header [class="close"]:hover{
+    color: #159a80;
   }
 
   .modal-content .modal-header .modal-title{
@@ -218,6 +224,11 @@ header #ms_navbar{
     border: 0;
     font-size: 18px;
     padding: 12px 18px;
+    transition: background-color 0.5s;
+  }
+
+  .modal-content .modal-footer .btn-default:hover{
+    background-color: #159a80;
   }
 
 
@@ -240,6 +251,7 @@ header #ms_navbar{
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  transition: background-color 0.4s;
 }
 
 #ms_about .ms_button:hover{
@@ -281,6 +293,7 @@ header #ms_navbar{
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  transition: background-color 0.4s;
 }
 
 #ms_contact .ms_button:hover{
@@ -314,6 +327,7 @@ footer [class*="col"]:nth-child(3) a{
 
 footer [class*="col"]:nth-child(3) a:hover{
   color: #159a80;
+  transition: color 0.5s;
 }
 
 footer .ms_social_icon a{
@@ -325,6 +339,7 @@ footer .ms_social_icon a{
   line-height: 40px;
   border: 1px solid #fff;
   border-radius: 50%;
+  transition: background-color 0.4s;
 }
 
 footer .ms_social_icon a:hover{
